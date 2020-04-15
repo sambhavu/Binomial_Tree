@@ -3,7 +3,7 @@ vector< vector<double> > binomial_tree( double S0,
                                         double d,
                                         int no_steps){
     vector<vector<double>>tree;
-    for(int i = 1; i<=no_steps;++1){
+    for(int i = 1; i<=no_steps;++i){
         vector<double> S(i);
         for(int j = 0;j<i;++j){
             S[j] = S0*pow(u,j)*pow(d,i-j-1);
