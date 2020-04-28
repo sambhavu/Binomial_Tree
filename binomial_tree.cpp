@@ -1,3 +1,12 @@
+
+
+#include<iostream>
+#include<cmath>
+#include<algorithm>
+using namespace std; 
+
+
+
 vector< vector<double> > binomial_tree( double S0,
                                         double u,
                                         double d,
@@ -12,3 +21,13 @@ vector< vector<double> > binomial_tree( double S0,
     }
     return tree;
                                         };
+int main(){
+
+vector<vector<double>> t;
+
+t=binomial_tree(100,34
+,7,1000);
+
+
+return0;
+}
